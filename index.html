@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Activities - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="stocks.html">Stocks</a></li>
+                <li><a href="dogs.html">Dogs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Welcome to the Class Activities Website</h1>
+
+        <div class="button-container">
+            <p>Interact with the website using voice commands or navigation links.</p>
+            <button class="button-62" onclick="location.href='stocks.html'">Stocks</button>
+            <button class="button-62" onclick="location.href='dogs.html'">Dogs</button>
+        </div>
+
+        <div id="quoteSection">
+            <h2>Quote of the Day</h2>
+            <p id="quoteText">Loading...</p>
+        </div>
+    </main>
+
+<div id="audioControl" class="audio-box">
+    <h3>Voice Command Instructions</h3>
+    <ul>
+      <li>Say <strong>"hello"</strong> – Displays an alert</li>
+      <li>Say <strong>"change the color to blue"</strong> – Changes background color</li>
+      <li>Say <strong>"navigate to home"</strong> – Navigates to that page</li>
+    </ul>
+    <button id="toggleAudio">Turn Off Audio</button>
+    <button id="toggleOnAudio">Turn On Audio</button>
+  </div>
+  
+</body>
+</html>

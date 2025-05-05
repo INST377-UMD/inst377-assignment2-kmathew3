@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Activities - Dogs</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-slider-js@1.0.0/dist/simple-slider.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="stocks.html">Stocks</a></li>
+            <li><a href="dogs.html">Dogs</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <h1>Dog Breeds Gallery</h1>
+        <div id="dogCarousel" class="slider-container">
+
+        </div>
+
+        <section id="dogBreeds">
+            <h2>Dog Breeds</h2>
+            <div id="breedButtons">
+
+            </div>
+
+            <div id="breedInfo" style="display:none;">
+                <h3 id="breedName"></h3>
+                <p id="breedDescription"></p>
+                <p>Min Life: <span id="minLife"></span> years</p>
+                <p>Max Life: <span id="maxLife"></span> years</p>
+            </div>
+        </section>
+
+        <div id="audioControl">
+                <h3>Voice Command Instructions</h3>
+                <ul>
+                  <li>Say "load dog breed Labrador" to see information about Labradors.</li>
+                  <li>Say <strong>"hello"</strong> – Displays an alert</li>
+                  <li>Say <strong>"change the color to blue"</strong> – Changes background color</li>
+                  <li>Say <strong>"navigate to home"</strong> – Navigates to that page</li>
+                </ul>            </p>
+            <button id="toggleAudio">Turn Off Audio</button>
+            <button id="toggleOnAudio">Turn On Audio</button>
+        </div>
+      </main>
+</body>
+</html>
